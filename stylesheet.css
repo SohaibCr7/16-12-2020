@@ -1,0 +1,87 @@
+/* basic flag */
+.container{
+    width: 50%;
+    /* flex-direction: inherit; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.flex_basic1{
+    
+    background: burlywood;
+    flex-grow: 3;
+}
+
+.flex_basic2
+{
+    
+    background: crimson; 
+    flex-grow: 1;
+}
+
+.flex_basic3
+{
+   
+   background: darkgreen;
+   flex-grow: 6;
+}
+
+
+/* Direction flex */
+.container_direction
+{
+    width: 50%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.flex_direction1
+{
+    flex-grow: 3;
+    background: mediumblue;
+    
+}
+
+.flex_direction2
+{
+    flex-grow: 3;
+    background: gray;
+}
+
+.flex_direction3
+{
+    flex-grow: 3;
+    background:orange;
+}
+
+/* Flex Flow */
+.container_flex_flow
+{
+    padding-top: 20px;
+    width: 50%;
+    display: flex;
+    
+}
+
+.flex_flow1
+{
+    flex-basis: 3;
+    background-color: mediumorchid;
+}
+
+.flex_flow2
+{
+    background-color: darkgoldenrod;
+}
+
+.flex_flow3
+{
+    background-color: orangered;
+}
+/* @media(max-width: 800px)
+{
+    .container{
+        flex-direction: column;
+    }
+} */
